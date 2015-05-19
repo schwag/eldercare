@@ -52,7 +52,6 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .img-centered {
@@ -359,7 +358,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: "bebas-neue",sans-serif;
-        font-size: 57px;
+        font-size: 72px;
         line-height: 75px;
     }
 }
@@ -372,12 +371,12 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    font-family: "bebas-neue",sans-serif;
     color: #405e5a;
 }
 
 section h3.section-subheading {
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 26px;
     margin: 10px 20px 10px 20px;
