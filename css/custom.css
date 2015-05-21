@@ -339,6 +339,9 @@ header .intro-text .intro-heading {
   border: 1px solid transparent;
   border-radius: 4px;
 }
+.smallLogo img{
+    margin: 0px 0px 0px 15px;
+}
 /*---------------------------------------------------------------------------------------------------------------*/
 @media(min-width:768px) {
     header .intro-text {
@@ -400,7 +403,8 @@ section h3.section-subheading {
 }
 @media(max-width: 611px){
     header .intro-text .intro-heading {
-        font-size: 14px;
+        font-size: 25px;
+        font-family: "bebas-neue",sans-serif;
     }
     section h2.section-heading{
         font-size: 19px;
@@ -414,7 +418,7 @@ section h3.section-subheading {
     }
     .navbar-default .navbar-collapse {
         border-color: rgba(255,255,255,.02);
-        background-color: rgb(219, 219, 219);
+        /*background-color: rgb(219, 219, 219);*/
     }
     header{
         margin: 75px 0px 0px 0px;
@@ -423,10 +427,16 @@ section h3.section-subheading {
         margin-top: 10px;
         padding: 10px;
     }
+    .smallLogo img{
+        margin: 0 auto;
+    }
 }
 @media(max-width:767px){
     header{
         margin: 75px 0px 0px 0px;
+    }
+        .smallLogo img{
+        margin: 0 auto;
     }
 }
 @media(min-width:768px) {
@@ -434,6 +444,9 @@ section h3.section-subheading {
         float: right!important;
         margin-right: -15px;
         margin-top: 10px;
+    }
+        .smallLogo img{
+        margin: 0 auto;
     }
 }
 
